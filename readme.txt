@@ -1,15 +1,18 @@
 === Accordion Shortcodes ===
-Contributors: philbuchanan
-Author URI: http://philbuchanan.com/
-Donate Link: http://philbuchanan.com/
+Author URI: https://www.joeszalai.org
 Tags: accordion, accordions, shortcodes, responsive accordions, accordions plugin, jquery accordions, accordions short-code, accordions plugin wordpress, accordions plugin jquery
 Requires at least: 3.3
-Tested up to: 5.1
-Stable tag: 2.4.2
+Tested up to: 5.6
+Stable tag: 20201209
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Shortcodes for creating responsive accordion drop-downs.
+
+== Important ==
+
+I cloned this repo, beacuse "Plugin No Longer Officially Supported".
+I have "rebranded" so that it can be easily distinguished from the original.
 
 == Description ==
 
