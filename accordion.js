@@ -63,6 +63,11 @@
 			// ID hashs override all initial state settings
 			if (selectedId.length && selectedId == '#' + $(this).attr('id')) {
 				initiallyOpen = true;
+			} else if ( selectedId.length && selectedId != '#' + $(this).attr('id') ) {
+				/**
+				 * If a hash (#) exist in the URL, then override original "open first accorion" setting.
+				 */
+				initiallyOpen = false;
 			}
 
 			var item = getAccordionItemObject($(this), initiallyOpen);
